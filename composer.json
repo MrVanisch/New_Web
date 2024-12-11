@@ -1,0 +1,7 @@
+{
+    "require": {
+        "mongodb/mongodb": "^1.15",
+        "google/apiclient": "^2.18",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}

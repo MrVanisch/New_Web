@@ -1,0 +1,404 @@
+@import "https://fonts.googleapis.com/css?family=Inter:400,500,600,700,800&display=swap";
+*{   
+    font-family: "Inter",sans-serif;
+    margin: 0px;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(17, 19, 24);
+    z-index: 0;
+}
+
+/* Grafika SVG */
+#svg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#menu{
+    margin: auto;
+    width: 1080px;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#logo{  
+    float: left;
+    line-height: 40px;
+    margin-left: 30px;
+    color: white;
+    font-weight: bolder;
+    width: 40px;
+    aspect-ratio: auto 40 / 40;
+}
+
+#but_log{
+    float: right;
+}
+
+/* Przycis Logowanie Rejestracja  */
+
+#rej{
+    margin-right: 30px;
+    float: right;
+    background-color: rgba(66, 53, 248, 0.342);
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 40px;
+    font-family: "Inter";
+    color: white;
+    font-size: 15px;
+    font-weight: 600;  
+    border: none;
+}
+
+#log{
+    margin-right: 30px;
+    float: right;
+    background-color: #00000000;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 40px;
+    font-family: "Inter";
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
+
+#rej:hover{
+    background-color: rgb(66, 53, 248);
+    cursor:pointer;
+}
+
+#log:hover{
+    background-color: #5a6268;
+    cursor:pointer;
+}
+
+#content{
+    margin: auto;
+    margin-top: 50px;
+    width: 700px;
+}
+
+.post{
+    margin-top: 60px;
+    color: #9ca9b3;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: -.1px;
+}
+
+.post_text{
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+}
+
+h1{
+    color: white;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 62px;
+}
+
+#svg1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    
+}
+
+#svg2{
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    z-index: -1;
+    transform: rotate(180deg);
+}
+
+
+#stopka{
+    margin: auto;
+    width: 800px;
+    height: 40px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+#logo_stopka{
+    float: left;
+    line-height: 40px;
+    margin-left: 30px;
+    color: white;
+    font-weight: bolder;
+    width: 40px;
+    aspect-ratio: auto 40 / 40;
+}
+
+#stopka_text{
+    color: #9ca9b3;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: -.1px;
+    float: right;
+}
+
+#stopka_text a{
+text-decoration: none;
+color: #9ca9b3;
+word-spacing: 30px;
+
+}
+
+@media only screen and (max-width: 1070px) {
+    
+    #menu{
+        margin: auto;
+        width: 600px;
+        height: 40px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #stopka{
+        margin: auto;
+        width: 600px;
+        height: 40px;
+        margin-top: 80px;
+        text-align: center;
+    }
+} 
+
+
+/*Rensponsywność strony na telefony ! */
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(17, 19, 24);
+    }
+
+    #svg{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+    }
+    
+    #menu{
+        margin: auto;
+        width: 400px;
+        height: 40px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    #logo{  
+        float: left;
+        line-height: 40px;
+        margin-left: 30px;
+        color: white;
+        font-weight: bolder;
+        width: 40px;
+        aspect-ratio: auto 40 / 40;
+    }
+    
+    /* Przycis Logowanie Rejestracja  */
+    
+    #rej{
+        margin-right: 30px;
+        float: right;
+        background-color: rgba(66, 53, 248, 0.342);
+        height: 40px;
+        width: 120px;
+        border-radius: 4px;
+        text-align: center;
+        line-height: 40px;
+        font-family: "Inter";
+        color: white;
+        font-size: 15px;
+        font-weight: 400;  
+        border: none;
+    }
+    
+    #log{
+        margin-right: 30px;
+        float: right;
+        background-color: #00000000;
+        height: 40px;
+        width: 120px;
+        border-radius: 4px;
+        text-align: center;
+        line-height: 40px;
+        font-family: "Inter";
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+        border: none;
+    }
+    
+    #rej:hover{
+        background-color: rgb(66, 53, 248);
+        cursor:pointer;
+    }
+    
+    #log:hover{
+        background-color: #5a6268;
+        cursor:pointer;
+    }
+    
+    #content{
+        margin: auto;
+        margin-top: 50px;
+        width: 400px;
+    }
+    
+    .post{
+        margin-top: 60px;
+        color: #9ca9b3;
+        font-weight: 400;
+        font-size: 1rem;
+        text-align: center;
+        line-height: 30px;
+        letter-spacing: -.1px;
+    }
+    
+    .post_text{
+        margin: auto;
+        margin-top: 20px;
+        width: 80%;
+    }
+    
+    h1{
+        color: white;
+        font-weight: 400;
+        font-size: 46px;
+        line-height: 62px;
+    }
+    
+    #svg1{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        
+    }
+    
+    #svg2{
+        position: fixed;
+        bottom: 0px;
+        right: 0;
+        z-index: -1;
+        transform: rotate(180deg);
+    }
+    
+    
+    #stopka{
+        margin: auto;
+        width: 350px;
+        height: 40px;
+        margin-top: 80px;
+        text-align: center;
+    }
+    
+    #logo_stopka{
+        float: left;
+        line-height: 40px;
+        margin-left: 30px;
+        color: white;
+        font-weight: bolder;
+        width: 40px;
+        aspect-ratio: auto 40 / 40;
+    }
+    
+    #stopka_text{
+        color: #9ca9b3;
+        font-weight: 400;
+        font-size: 1rem;
+        text-align: center;
+        line-height: 20px;
+        letter-spacing: -.1px;
+        float: right;
+    }
+    
+    #stopka_text a{
+    text-decoration: none;
+    color: #9ca9b3;
+    word-spacing: 30px;
+
+
+  }
+} 
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in, .fade-in-delayed {
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Stylizacja przycisków */
+#rej, #log {
+    margin-right: 30px;
+    float: right;
+    background: linear-gradient(135deg, #5658dd, #6b60f9);
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 40px;
+    font-family: "Inter";
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#log {
+    background: transparent;
+    color: white;
+    border: 2px solid #5658dd;
+}
+
+#rej:hover, #log:hover {
+    background: linear-gradient(135deg, #6b60f9, #5658dd);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+#rej:active, #log:active {
+    transform: translateY(2px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
